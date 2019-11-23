@@ -1,0 +1,73 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>AdvSys_Starter</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AdvSys_Starter</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Draw.csproj" File="Draw.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <Folder Name="Converters" TargetFolderName="Converters">
+        <ProjectItem ReplaceParameters="true" TargetFileName="UtilityConverters.cs">UtilityConverters.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Images" TargetFolderName="Images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Add.png">Add.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Approved.png">Approved.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Calendar Monthly  College 1.png">Calendar Monthly  College 1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Calendar.png">Calendar.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Camera.png">Camera.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Chart Bar 3.png">Chart Bar 3.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Chart College 1.png">Chart College 1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Check.png">Check.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Configuration.png">Configuration.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="delete.png">delete.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Design.png">Design.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Display.png">Display.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Dude.png">Dude.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Edit.png">Edit.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Folder Documents.png">Folder Documents.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="PC.png">PC.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Pictures.png">Pictures.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="refresh.png">refresh.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Security Gold.png">Security Gold.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Settings.png">Settings.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Student College 1.png">Student College 1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Target 2.png">Target 2.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Toolbox.png">Toolbox.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Tuition Payment 3.png">Tuition Payment 3.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Tutor 1.png">Tutor 1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="User Business Female 1.png">User Business Female 1.png</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Action.cs">Action.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ReaderViewModel.cs">ReaderViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RelayCommand.cs">RelayCommand.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ViewModelBase.cs">ViewModelBase.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Button1UserControl.xaml">Button1UserControl.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Button1UserControl.xaml.cs">Button1UserControl.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
